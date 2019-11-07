@@ -1,0 +1,50 @@
+.calculator {
+    height: 535px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.window {
+    width: 90%;
+    background-color: rgba(0, 0, 0, .80);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.buttons   {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.input    {
+    height: 75px;
+    width: 75px;
+}
+
+.previous-number    {
+    height: 30px;
+    color: rgba(255, 255, 255, .75);
+}
+
+.operand    {
+    height: 20px;    
+    color: rgba(255, 255, 255, .85);
+}
+
+.current-number {
+    height: 50px;
+    color: white;
+}
+
+.ce {
+    width: 150px;
+}
+
+.equals {
+    width: 150px;
+}
